@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "checked": false,
+      "item": "jva"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "item": "js"
+    },
+    {
+      "id": "3",
+      "checked": true,
+      "item": "react "
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "item": "arju"
+    },
+    {
+      "id": "5",
+      "checked": false,
+      "item": "kiran"
+    }
+  ]
+}
