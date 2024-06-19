@@ -1,19 +1,21 @@
 import React from "react";
+import ItemsList from "./ItemsList";
+const Content=({items,handlecheck,handledelete})=>{
+    
+    return( 
+        <>
+            {(items.length)?(
+                <ItemsList
+                    items={items}
+                    handlecheck={handlecheck}
+                    handledelete={handledelete}
+                />
+            ):(
+                <p style={{marginTop:'2rem'}}>Your list is empty</p>
+            )}
 
-const Content=()=>{
-    function handlechange(){
-        const arr=["earn","grow","give"];
-        const i=1
-        return arr[i];
-    }
-    const handleClick=()=>{
-        console.log("thanks")
-    }
-    return(
-        <main>        
-        <div>lets {handlechange()} money</div>
-        <button onClick={handleClick}>subscribe</button>
-</main>
+        </>
     )
+
 }
 export default Content
